@@ -276,7 +276,7 @@ void setupScreen(){
   M5.Lcd.setRotation(1);
   M5.Display.setBrightness(127);
   M5.Lcd.fillScreen(TFT_WHITE);
-  M5.Lcd.setFreeFont(&FreeSansBold12pt7b);
+  M5.Lcd.setFont(&FreeSansBold12pt7b);
   M5.Lcd.setTextDatum(MC_DATUM);
   int xpos = M5.Lcd.width() / 2; // Half the screen width
   int ypos = M5.Lcd.height() / 2; // Half the screen width
